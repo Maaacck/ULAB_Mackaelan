@@ -1,0 +1,55 @@
+# 1 Branching
+
+# 1.1 Problem 1
+
+# 1 pwd
+
+# 2 ls and patterns.txt and symmetry.py will be shown. 
+
+# 3 nano patterns.txt
+
+# 4 cat patterns.txt
+
+# 5 diff patterns.txt symmetry.txt
+
+# 6 mv patterns.txt ~/math/calculus/
+
+# 7 rm ~/math/geometry/triangle.txt
+
+# 8 cd ../math
+
+# 9 git init
+
+# 10 git remote add origin https://github.com/Maaacck/math.git
+# git remote -v 
+# git push -u origin main
+
+# 11 cp ~/music/symmetry.txt ~/math/
+
+# 12 git status
+# It would not be tracking because you haven't added it yet. 
+
+# 13 git add symmetry.txt and git add .
+
+# 14 It is being tracked and unstaged.
+# git reset HEAD symmetry.txt
+
+# 15 git commit -m "Message."
+
+# 16 git push origin main 
+# It should be main because that is the current one being used unless stated otherwise. 
+
+# 17 git branch applied_math
+
+# 18 git checkout applied_math
+
+# 19 git add .
+# git commit -m "Physics - Mechanic"
+# git push origin applied_math
+# If you switched back before committing, changes would not be saved. 
+
+# 20 git branch
+
+# 21 git checkout main
+
+# 22 git merge applied-math
